@@ -16,6 +16,8 @@ The vtex-dynamic-tab-layout app provides you the needed structure to create shel
     ...
     ```
 
+    you should replace CHANGE_ME with the Vtex account.
+
 2. Declaring the app's main block in a given theme template or inside another block from the theme.
 
     ```bash
@@ -42,6 +44,16 @@ The vtex-dynamic-tab-layout app provides you the needed structure to create shel
 
 **`Important:`** The context in this block returns product listing information to use with a shelf block.
 
+## Publishing an app
+
+vtex.io-documentation@0.88.24
+
+Following I share the Vtex official documentation in order to understand the three important pieces in order to publishing our app.
+
+1. [Publishing](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-publishing-an-app)
+2. [Deploying](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-deploying-the-app-stable-version)
+3. [Promoting](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-promoting-a-workspace-to-master)
+
 ### Vtex site editor
 
 ![Site editor 1](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-1.png)
@@ -51,6 +63,12 @@ The vtex-dynamic-tab-layout app provides you the needed structure to create shel
 ![Site editor 3](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-3.png)
 
 ![Site editor 4](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-4.png)
+
+### Example Result
+
+![Tab 1](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/tab-1.png)
+
+![Tab 2](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/tab-2.png)
 
 ## Customization
 
