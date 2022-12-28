@@ -1,0 +1,31 @@
+{
+  "vendor": "CHANGE_ME",
+  "name": "dynamictabapp",
+  "version": "0.0.1",
+  "title": "DynamicTabApp",
+  "description": "Dynamic tab for show collections",
+  "defaultLocale": "en-US",
+  "builders": {
+    "messages": "1.x",
+    "styles": "2.x",
+    "store": "0.x",
+    "docs": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.product-summary": "2.x",
+    "vtex.styleguide": "9.x",
+    "vtex.slider": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.list-context": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.search-graphql": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

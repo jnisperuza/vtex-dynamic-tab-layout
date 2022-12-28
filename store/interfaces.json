@@ -1,0 +1,13 @@
+{
+    "DynamicTab": {
+        "component": "DynamicTab",
+        "allowed": [
+            "product-summary"
+        ],
+        "composition": "children",
+        "preview": {
+            "type": "grid",
+            "height": 550
+        }
+    }
+}

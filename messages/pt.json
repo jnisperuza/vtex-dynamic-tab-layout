@@ -1,0 +1,13 @@
+{
+  "admin/editor.DynamicTab.title": "Guias dinâmicas",
+  "admin/editor.DynamicTab.description": "Adicione informações para as guias dinâmicas",
+  "admin/editor.DynamicTab.isActive.title": "Ativo",
+  "admin/editor.DynamicTab.isActive.description": "The section is visible in the store",
+  "admin/editor.DynamicTab.section.title": "Título da seção",
+  "admin/editor.DynamicTab.section.defaultActiveTabId": "ID da guia padrão",
+  "admin/editor.DynamicTab.tabs.title": "Lista de guias",
+  "admin/editor.DynamicTab.tabs.tab.title": "Aba",
+  "admin/editor.DynamicTab.tabs.tab.id": "ID da guia",
+  "admin/editor.DynamicTab.tabs.tab.label": "Texto de tabulação",
+  "admin/editor.DynamicTab.tabs.tab.collectionId": "ID da coleção"
+}

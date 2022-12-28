@@ -1,0 +1,13 @@
+{
+  "admin/editor.DynamicTab.title": "Dynamic tabs",
+  "admin/editor.DynamicTab.description": "Add information for the dynamic tabs",
+  "admin/editor.DynamicTab.isActive.title": "Active",
+  "admin/editor.DynamicTab.isActive.description": "The section is visible in the store",
+  "admin/editor.DynamicTab.section.title": "Section title",
+  "admin/editor.DynamicTab.section.defaultActiveTabId": "Default Tab ID",
+  "admin/editor.DynamicTab.tabs.title": "Tab list",
+  "admin/editor.DynamicTab.tabs.tab.title": "Tab",
+  "admin/editor.DynamicTab.tabs.tab.id": "Tab ID",
+  "admin/editor.DynamicTab.tabs.tab.label": "Tab text",
+  "admin/editor.DynamicTab.tabs.tab.collectionId": "Collection ID"
+}

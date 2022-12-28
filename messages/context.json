@@ -1,0 +1,13 @@
+{
+    "admin/editor.DynamicTab.title": "admin/editor.DynamicTab.title",
+    "admin/editor.DynamicTab.description": "admin/editor.DynamicTab.description",
+    "admin/editor.DynamicTab.isActive.title": "admin/editor.DynamicTab.isActive.title",
+    "admin/editor.DynamicTab.isActive.description": "admin/editor.DynamicTab.isActive.description",
+    "admin/editor.DynamicTab.section.title": "admin/editor.DynamicTab.section.title",
+    "admin/editor.DynamicTab.section.defaultActiveTabId": "admin/editor.DynamicTab.section.defaultActiveTabId",
+    "admin/editor.DynamicTab.tabs.title": "admin/editor.DynamicTab.tabs.title",
+    "admin/editor.DynamicTab.tabs.tab.title": "admin/editor.DynamicTab.tabs.tab.title",
+    "admin/editor.DynamicTab.tabs.tab.id": "admin/editor.DynamicTab.tabs.tab.id",
+    "admin/editor.DynamicTab.tabs.tab.label": "admin/editor.DynamicTab.tabs.tab.label",
+    "admin/editor.DynamicTab.tabs.tab.collectionId": "admin/editor.DynamicTab.tabs.tab.collectionId"
+}

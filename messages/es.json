@@ -1,0 +1,13 @@
+{
+  "admin/editor.DynamicTab.title": "Pestañas dinámicas",
+  "admin/editor.DynamicTab.description": "Agregar información para las pestañas dinámicas",
+  "admin/editor.DynamicTab.isActive.title": "Activo",
+  "admin/editor.DynamicTab.isActive.description": "La sección es visible en la tienda",
+  "admin/editor.DynamicTab.section.title": "Título de la sección",
+  "admin/editor.DynamicTab.section.defaultActiveTabId": "ID de Tab predeterminado",
+  "admin/editor.DynamicTab.tabs.title": "Lista de pestañas",
+  "admin/editor.DynamicTab.tabs.tab.title": "Pestaña",
+  "admin/editor.DynamicTab.tabs.tab.id": "ID de pestaña",
+  "admin/editor.DynamicTab.tabs.tab.label": "Texto de pestaña",
+  "admin/editor.DynamicTab.tabs.tab.collectionId": "ID de colección"
+}

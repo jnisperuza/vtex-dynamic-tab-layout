@@ -1,0 +1,144 @@
+query getCollection($collectionId: String) {
+    products(collection: $collectionId) @context(provider: "vtex.search-graphql") {
+      ...ProductFragment
+      items {
+        ...ItemFragment
+        sellers {
+          ...SellerFragment
+          commertialOffer {
+            ...CommertialOfferFragment
+            Installments {
+              ...InstallmentFragment
+            }
+          }
+        }
+      }
+    }
+}
+
+fragment ProductFragment on Product {
+  cacheId
+  productId
+  description
+  productName
+  productReference
+  linkText
+  brand
+  brandId
+  link
+  categories
+  categoryId
+  priceRange {
+    sellingPrice {
+      highPrice
+      lowPrice
+    }
+    listPrice {
+      highPrice
+      lowPrice
+    }
+  }
+  specificationGroups {
+    name
+    originalName
+    specifications {
+      name
+      originalName
+      values
+    }
+  }
+  skuSpecifications {
+    field {
+      name
+      originalName
+    }
+    values {
+      name
+      originalName
+    }
+  }
+  productClusters {
+    id
+    name
+  }
+  clusterHighlights {
+    id
+    name
+  }
+  properties {
+    name
+    values
+  }
+}
+
+fragment ItemFragment on SKU {
+  itemId
+  name
+  nameComplete
+  complementName
+  ean
+  variations {
+    name
+    values
+  }
+  referenceId {
+    Key
+    Value
+  }
+  measurementUnit
+  unitMultiplier
+  images {
+    cacheId
+    imageId
+    imageLabel
+    imageTag
+    imageUrl
+    imageText
+  }
+}
+
+fragment SellerFragment on Seller {
+  sellerId
+  sellerName
+  sellerDefault
+}
+
+fragment CommertialOfferFragment on Offer {
+  discountHighlights {
+    name
+  }
+  teasers {
+    name
+    conditions {
+      minimumQuantity
+      parameters {
+        name
+        value
+      }
+    }
+    effects {
+      parameters {
+        name
+        value
+      }
+    }
+  }
+  Price
+  ListPrice
+  Tax
+  taxPercentage
+  spotPrice
+  PriceWithoutDiscount
+  RewardValue
+  PriceValidUntil
+  AvailableQuantity
+}
+
+fragment InstallmentFragment on Installment {
+  Value
+  InterestRate
+  TotalValuePlusInterestRate
+  NumberOfInstallments
+  Name
+  PaymentSystemName
+}

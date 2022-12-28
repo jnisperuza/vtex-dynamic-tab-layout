@@ -1,0 +1,159 @@
+.DynamicTab {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+/* DynamicTab Slider Mode */
+.DynamicTab--Slider .container .listContainer {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    scroll-behavior: smooth;
+}
+/* smartphones, smartphones_h and tablet */
+@media only screen and (max-width: 579px),
+only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : landscape),
+only screen and (min-width: 768px) and (max-width: 959px) {
+    .DynamicTab--Slider .container .listContainer {
+        /* Enable scroll for touch */
+        overflow: auto;
+    }
+    .DynamicTab--Slider .container .listContainer::-webkit-scrollbar {
+        appearance: none;
+        -webkit-appearance: none;
+    }
+}
+
+.DynamicTab--Slider .container .listContainer::before,
+.DynamicTab--Slider .container .listContainer::after  {
+    display: block;
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 50px;
+    height: 60px;
+    z-index: 8;
+}
+.DynamicTab--Slider .container .listContainer::before  {
+    left: 0;
+}
+.DynamicTab--Slider .container .listContainer::after {
+    right: 0;
+    transform: translateY(-55px);
+}
+.DynamicTab--Slider .container .listContainer .listItem {
+    display: inline-block;
+}
+
+@-moz-document url-prefix() {
+    .DynamicTab--Slider .container .listContainer .listItem:last-child {
+        margin-right: 45px;
+    }
+}
+
+.DynamicTab--Loading > span,
+.DynamicTab--Error > span,
+.DynamicTab--Collection-Not-Found > span {
+    display: block;
+    box-sizing: border-box;
+    color: #3f3f40;
+    padding: 20px 50px;
+}
+/* smartphones, smartphones_h and tablet */
+@media only screen and (max-width: 579px),
+only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : landscape),
+only screen and (min-width: 768px) and (max-width: 959px) {
+    .DynamicTab--Loading > span,
+    .DynamicTab--Error > span,
+    .DynamicTab--Collection-Not-Found > span {
+        text-align: center;
+    }
+}
+
+.DynamicTab--Loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.DynamicTab--NavigationLeft,
+.DynamicTab--NavigationRight {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    z-index: 10;
+    /* Disable Blue Highlight when Touch/Press object with Cursor:Pointer */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.DynamicTab--NavigationLeft:disabled,
+.DynamicTab--NavigationRight:disabled {
+    opacity: 0.5;
+    pointer-events: none !important;
+}
+.DynamicTab--NavigationLeft {
+    left: 5px;
+}
+.DynamicTab--NavigationRight  {
+    right: 5px;
+}
+
+.DynamicTab--Slider .DynamicTab--NavigationLeft,
+.DynamicTab--Slider .DynamicTab--NavigationRight {
+    display: flex;
+}
+
+.DynamicTab--NavigationLeft > img,
+.DynamicTab--NavigationRight > img {
+    width: 40px;
+    position: absolute;
+}
+
+.DynamicTab--NavigationLeft > img {
+    transform: rotate(90deg);
+}
+
+.DynamicTab--NavigationRight > img {
+    transform: rotate(270deg);
+}
+
+.DynamicTab--Preloader {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #eee;
+    border-top: 5px solid #666;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

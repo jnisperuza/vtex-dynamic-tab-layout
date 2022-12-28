@@ -1,0 +1,38 @@
+.DynamicTab--ProductListContent {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+}
+
+.DynamicTab--ProductListContent .sliderLeftArrow,
+.DynamicTab--ProductListContent .sliderRightArrow {
+  width: 37px;
+  height: 27px;
+  top: 123px;
+}
+
+.DynamicTab--ProductListContent .sliderLeftArrow {
+  left: -25px;
+}
+.DynamicTab--ProductListContent .sliderRightArrow {
+  right: -25px;
+}
+
+/* smartphones, smartphones_h and tablet */
+/* @media only screen and (max-width: 579px),
+only screen and (min-device-width : 414px) and (max-device-width : 768px) and (orientation : landscape),
+only screen and (min-width: 768px) and (max-width: 959px) {
+  .DynamicTab--ProductListContent .sliderLeftArrow {
+    left: -25px;
+  }
+  .DynamicTab--ProductListContent .sliderRightArrow {
+    right: -25px;
+  } 
+} */
+
+.DynamicTab--ProductListContent .slide {
+  max-width: 256px;
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
