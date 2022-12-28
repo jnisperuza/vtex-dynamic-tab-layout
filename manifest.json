@@ -3,7 +3,7 @@
   "name": "dynamictabapp",
   "version": "0.0.1",
   "title": "DynamicTabApp",
-  "description": "Dynamic tab for show collections",
+  "description": "The vtex-dynamic-tab-layout app provides you the needed structure to create shelf layouts based in collections from the use of tabs.",
   "defaultLocale": "en-US",
   "builders": {
     "messages": "1.x",

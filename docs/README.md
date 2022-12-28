@@ -4,8 +4,6 @@ The vtex-dynamic-tab-layout app provides you the needed structure to create shel
 
 ## Configuration
 
-In this section, you first must **add the primary instructions** that will allow users to use the app's blocks in their store, such as:
-
 1. Adding the app as a theme dependency in the `manifest.json` file;
 
     ```bash
@@ -42,6 +40,8 @@ In this section, you first must **add the primary instructions** that will allow
     ...
     ```
 
+**`Important:`** The context in this block returns product listing information to use with a shelf block.
+
 ### Vtex site editor
 
 ![Site editor 1](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-1.png)
@@ -71,12 +71,6 @@ Thereafter, you should add a single column table with the available CSS handles 
 | `listContainer` |
 | `listItem` |
 | `listItemActive` |
-
-If there are none, add the following sentence instead:
-
-`No CSS Handles are available yet for the app customization.`
-
-<!-- DOCS-IGNORE:start -->
 
 ## Author ✨
 

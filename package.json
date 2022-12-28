@@ -1,8 +1,14 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.1",
   "name": "CHANGE_ME",
-  "private": true,
-  "license": "UNLICENSED",
+  "private": false,
+  "description": "The vtex-dynamic-tab-layout app provides you the needed structure to create shelf layouts based in collections from the use of tabs.",
+  "author": "Jeison Nisperuza <jnisperuza1102@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnisperuza/vtex-dynamic-tab-layout.git"
+  },
+  "license": "ISC",
   "scripts": {
     "lint": "eslint --ext js,jsx,ts,tsx .",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
@@ -40,8 +46,5 @@
     "lint-staged": "^10.5.1",
     "prettier": "^2.2.0",
     "typescript": "^3.9.6"
-  },
-  "dependencies": {
-    "clsx": "^1.2.1"
   }
 }
