@@ -56,13 +56,21 @@ Following I share the Vtex official documentation in order to understand the thr
 
 ### Vtex site editor
 
-![Site editor 1](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-1.png)
+![site-editor-1](https://user-images.githubusercontent.com/8583341/210685859-ad2d4bc2-de90-438f-8d85-625791da7afe.png)
 
-![Site editor 2](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-2.png)
+![site-editor-2](https://user-images.githubusercontent.com/8583341/210685871-c9ca305d-e71f-4ce3-a15e-50ba5864e49d.png)
 
-![Site editor 3](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-3.png)
+![site-editor-3](https://user-images.githubusercontent.com/8583341/210685876-7b235316-d0c6-432b-8ed0-0dd84678a6df.png)
 
-![Site editor 4](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/site-editor-4.png)
+![site-editor-4](https://user-images.githubusercontent.com/8583341/210685884-2f8e520c-f47d-444d-ae8a-a42b46911df3.png)
+
+You can edit or delete any Item 
+
+![site-editor-5](https://user-images.githubusercontent.com/8583341/210685890-d368caa7-96c9-4763-8662-65d3eadfb6b9.png)
+
+You can also disable this section without having to delete this section
+
+![site-editor-6](https://user-images.githubusercontent.com/8583341/210685894-4e762c6a-ee07-4ecb-93a6-ee79467056fc.png)
 
 ### Example Result
 
