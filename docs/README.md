@@ -56,19 +56,27 @@ Following I share the Vtex official documentation in order to understand the thr
 
 ### Vtex site editor
 
+#### Block list:
+
 ![site-editor-1](https://user-images.githubusercontent.com/8583341/210685859-ad2d4bc2-de90-438f-8d85-625791da7afe.png)
+
+#### Edit section:
 
 ![site-editor-2](https://user-images.githubusercontent.com/8583341/210685871-c9ca305d-e71f-4ce3-a15e-50ba5864e49d.png)
 
+#### Tab 1:
+
 ![site-editor-3](https://user-images.githubusercontent.com/8583341/210685876-7b235316-d0c6-432b-8ed0-0dd84678a6df.png)
+
+#### Tab 2:
 
 ![site-editor-4](https://user-images.githubusercontent.com/8583341/210685884-2f8e520c-f47d-444d-ae8a-a42b46911df3.png)
 
-You can edit or delete any Item 
+#### You can edit or delete any Item 
 
 ![site-editor-5](https://user-images.githubusercontent.com/8583341/210685890-d368caa7-96c9-4763-8662-65d3eadfb6b9.png)
 
-You can also disable this section without having to delete this section
+#### You can also disable this section without having to delete this section
 
 ![site-editor-6](https://user-images.githubusercontent.com/8583341/210685894-4e762c6a-ee07-4ecb-93a6-ee79467056fc.png)
 
@@ -77,6 +85,8 @@ You can also disable this section without having to delete this section
 ![Tab 1](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/tab-1.png)
 
 ![Tab 2](https://cdn.statically.io/gh/jnisperuza/vtex-dynamic-tab-layout/master/docs/images/tab-2.png)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/8583341/210686900-a5e75317-9c55-4e5e-bf06-4fdf7f48f562.gif)
 
 ## Customization
 
